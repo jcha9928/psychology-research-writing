@@ -53,7 +53,10 @@
 │   └── week4_revision_strategy.md      # Methods/Results bulletproofing
 │
 ├── week1/                              # Human-centered writing (no AI)
-│   └── lecture_notes.md                # Focus on reader-centered communication
+│   ├── lecture_notes.md                # Original detailed notes (reference)
+│   ├── lesson_notes_compressed_90min.md # Compressed slides: 62→23 (90min workshop)
+│   ├── workshop_materials.md           # Bad Sentences + Smart Revising checklist
+│   └── teaching_guide_90min.md         # Minute-by-minute teaching guide
 │
 ├── week2/                              # AI 활용 I - 초록
 │   └── lecture_notes.md                # Nature/Science abstract strategies (395 lines)
@@ -79,9 +82,27 @@
 ## 📖 Weekly Structure
 
 ### Week 1: Human-Centered Writing (no AI)
-- C-C-C structure (Context-Content-Conclusion)
-- Reader-centered communication
-- No AI tools - focus on fundamental writing principles
+**90-Minute Workshop Model** (62 slides → 23 slides, 63% compression)
+
+**Structure**:
+- Lecture: 35 min (23 slides) - 10 core principles
+- Workshop: 40 min (44%) - Practice-focused learning
+- Wrap-up: 15 min - Q&A, assignment
+
+**10 Core Principles**:
+1. **Lesson 1** (주어-동사): Actions in verbs, subjects as subjects, keep them close
+2. **Lesson 2** (응집성): Old→New flow, strategic passive, paragraph coherence
+3. **Lesson 3** (간결성): Remove unnecessary words, simple language, simple subjects, limit modifiers
+
+**Workshop Components**:
+- Stage 1: Bad Sentences 수술실 (10 sentences from original examples)
+- Stage 2: Smart Revising 7-step checklist on own writing
+- Peer feedback protocols
+
+**Materials**:
+- `lesson_notes_compressed_90min.md`: 23 slides with core concepts + best examples
+- `workshop_materials.md`: Practice materials with model answers
+- `teaching_guide_90min.md`: Minute-by-minute teaching guide with scripts
 
 ### Week 2: AI 활용 I - Nature/Science급 초록 작성
 **NO PROMPT ENGINEERING BASICS** (students already learned from 윤경생)
@@ -122,11 +143,22 @@ Focus areas:
 ## 🎓 Teaching Philosophy
 
 ### 90-Minute Class Structure
+
+**Week 1 Structure** (Workshop Model):
+1. **IMRaD 오리엔테이션** (5분): Course roadmap
+2. **핵심 원칙 강의** (30분): 10 principles with key examples
+3. **Workshop Stage 1** (20분): Bad Sentences practice
+4. **Workshop Stage 2** (20분): Smart Revising on own writing
+5. **통합 정리 & Q&A** (15분): Wrap-up and assignment
+
+**Week 2-6 Structure** (AI-Enhanced):
 1. **개념 리뷰** (10분): Brief recap (students already know AI concepts)
 2. **전략 강의** (20분): Top-tier publication strategies
 3. **프롬프트 레시피 공유** (20분): Share successful AI prompts
 4. **실습** (30분): Apply strategies to own research
 5. **피어 리뷰** (10분): Structured feedback sessions
+
+**Key Principle**: Practice > Theory (minimum 40% hands-on time)
 
 ### Recipe Sharing Culture
 - Students share their successful AI prompts
@@ -153,7 +185,13 @@ Focus areas:
 - `claudedocs/week4_revision_strategy.md`: Methods/Results bulletproofing
 
 ### For Teaching
-- `week1/lecture_notes.md`: Human-centered writing fundamentals
+**Week 1** (Workshop Model):
+- `week1/lesson_notes_compressed_90min.md`: 23 slides, 10 core principles (RECOMMENDED)
+- `week1/workshop_materials.md`: Bad Sentences + Smart Revising checklist
+- `week1/teaching_guide_90min.md`: Minute-by-minute guide with scripts
+- `week1/lecture_notes.md`: Original detailed notes (reference only)
+
+**Week 2-6** (AI-Enhanced):
 - `week2/lecture_notes.md`: Top-tier abstract writing (395 lines)
 - `week3/lecture_notes.md`: Systematic gap discovery (553 lines)
 - `week4/lecture_notes.md`: Methods/Results bulletproofing (718 lines)
@@ -211,6 +249,7 @@ Students should be able to:
 
 ## 📝 Notes for Future Claude Instances
 
+### General Principles
 - This is **not a software project** - it's course material
 - No code to build, test, or deploy
 - Focus on content quality, pedagogical effectiveness, and strategic alignment
@@ -219,3 +258,12 @@ Students should be able to:
 - Students are psychology graduate students, not computer science students
 - Examples should come from psychology/neuroscience research when possible
 - All AI tool usage should be practical and immediately applicable to research writing
+
+### Week 1 Specific Guidelines
+- **Use the compressed workshop model**: `lesson_notes_compressed_90min.md` is the primary teaching material
+- **Practice-first philosophy**: Minimum 40% hands-on time (44% achieved in current design)
+- **Cognitive load management**: 10 core principles is the limit, not 40+
+- **Workshop over lecture**: 20min practice > 20min theory explanation
+- **Peer learning**: Always include pair/group activities
+- **Original materials**: `lecture_notes.md` is reference only, not for teaching
+- If adding content: Compress first, then add to workshop materials, not lecture slides
