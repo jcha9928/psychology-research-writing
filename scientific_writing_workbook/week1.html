@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>1주차 – 과학 글쓰기 워크북</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="logo">과학 글쓰기 워크북</div>
+        <ul>
+          <li><a href="index.html">홈</a></li>
+          <li><a href="week1.html">1주차</a></li>
+          <li><a href="week2.html">2주차</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section>
+      <h1>1주차 학습</h1>
+      <p>
+        첫 주에는 문장의 구조와 정보 배치에 중점을 둡니다. 각 섹션에서 내용을 읽고,
+        연습 문제를 풀며 직접 문장을 개선해 보세요. 설명은 한국어로 제공되고,
+        실습은 영어 예문을 사용합니다.
+      </p>
+    </section>
+
+    <!-- Day 1 -->
+    <section id="day1">
+      <h2>Day 1 – 과학 글쓰기 소개 및 문장의 기본 구조</h2>
+      <p>
+        과학 글쓰기는 연구자의 아이디어를 전달하고 협업을 촉진하는 데 필수적입니다. 잘 쓰인 문장은
+        독자가 중요한 정보를 쉽게 찾도록 도와줍니다. 문장은 기본적으로 주어(subject), 동사(verb),
+        그리고 보어(complement)로 구성됩니다. 누가 무엇을 했는지 명확히 전달하는 것이 목표입니다.
+      </p>
+      <h3>연습 문제</h3>
+      <p><strong>Original:</strong> In this study, measurements of memory performance were taken by the researchers.</p>
+      <textarea placeholder="Type your revision here..."></textarea>
+      <button class="show-answer" data-target="d1-a1">Show Answer</button>
+      <div id="d1-a1" class="sample-answer">
+        <p><strong>Revised:</strong> In this study, the researchers measured memory performance.</p>
+      </div>
+      <p><strong>Original:</strong> The examination of social behavior in primates was conducted over a period of six months.</p>
+      <textarea placeholder="Type your revision here..."></textarea>
+      <button class="show-answer" data-target="d1-a2">Show Answer</button>
+      <div id="d1-a2" class="sample-answer">
+        <p><strong>Revised:</strong> We examined social behavior in primates over six months.</p>
+      </div>
+      <div id="quiz-d1"></div>
+      <script>
+        const quizD1 = [
+          {
+            question: "문장의 기본 구성 요소는 무엇인가?",
+            options: ["주어, 동사, 보어", "동사, 목적어, 관형어", "명사, 동사, 형용사"],
+            answer: 0
+          },
+          {
+            question: "과학 글쓰기의 주요 목표 중 하나는 무엇인가?",
+            options: ["문장을 길게 만드는 것", "누가 무엇을 했는지 명확히 전달하는 것", "독자를 혼란스럽게 하는 것"],
+            answer: 1
+          }
+        ];
+        document.addEventListener('DOMContentLoaded', () => {
+          renderQuiz(quizD1, 'quiz-d1');
+        });
+      </script>
+    </section>
+
+    <!-- Day 2 -->
+    <section id="day2">
+      <h2>Day 2 – 동사에 행동 담기</h2>
+      <p>
+        명사화(nominalization)는 동사를 명사로 바꾼 형태입니다. 예를 들어, “to analyze”는 “analysis”로
+        바뀝니다. 명사화를 과도하게 사용하면 행위가 명사 안에 숨어버려 독자가 혼란스러워집니다. 가능하다면
+        동사 형태로 표현하여 행동을 문장의 동사에 담으세요. 예: “We performed an analysis on the data”를
+        “We analyzed the data”로 고칠 수 있습니다【147290103937316†L50-L89】.
+      </p>
+      <h3>연습 문제</h3>
+      <p><strong>Original:</strong> We performed an analysis on the data.</p>
+      <textarea placeholder="Type your revision here..."></textarea>
+      <button class="show-answer" data-target="d2-a1">Show Answer</button>
+      <div id="d2-a1" class="sample-answer">
+        <p><strong>Revised:</strong> We analyzed the data.</p>
+      </div>
+      <p><strong>Original:</strong> The team carried out an investigation of the effects of sleep deprivation.</p>
+      <textarea placeholder="Type your revision here..."></textarea>
+      <button class="show-answer" data-target="d2-a2">Show Answer</button>
+      <div id="d2-a2" class="sample-answer">
+        <p><strong>Revised:</strong> The team investigated the effects of sleep deprivation.</p>
+      </div>
+      <div id="quiz-d2"></div>
+      <script>
+        const quizD2 = [
+          {
+            question: "명사화를 사용할 때 발생할 수 있는 문제는?",
+            options: ["문장이 더 간결해진다", "행동이 명사에 숨겨져 독자가 이해하기 어렵다", "동사가 강조된다"],
+            answer: 1
+          },
+          {
+            question: "다음 중 적절한 수정은? 'We conducted a measurement of brain activity.'",
+            options: ["We conducted a measurement of brain activity", "We measured brain activity", "Brain activity was measured by us"],
+            answer: 1
+          }
+        ];
+        document.addEventListener('DOMContentLoaded', () => {
+          renderQuiz(quizD2, 'quiz-d2');
+        });
+      </script>
+    </section>
+
+    <!-- Day 3 -->
+    <section id="day3">
+      <h2>Day 3 – 등장인물을 주어에 배치하기</h2>
+      <p>
+        문장의 주어는 이야기의 주인공입니다. 추상적 명사를 주어로 쓰면 누가 행동하는지 분명하지 않아
+        독자가 혼란스러울 수 있습니다. 가능한 한 행위자를 주어로 두고, 문단 내에서 주어를 일관되게
+        유지하세요【147290103937316†L112-L139】. 또한 여러 문장에 걸쳐 같은 주제를 다룰 때 주어를 불필요하게
+        변경하지 않는 것이 좋습니다【147290103937316†L150-L199】.
+      </p>
+      <h3>연습 문제</h3>
+      <p><strong>Original:</strong> The movement in the liquid medium of the bacteria was accomplished by microflagella.</p>
+      <textarea placeholder="Type your revision here..."></textarea>
+      <button class="show-answer" data-target="d3-a1">Show Answer</button>
+      <div id="d3-a1" class="sample-answer">
+        <p><strong>Revised:</strong> The bacteria move themselves in the liquid medium using microflagella.</p>
+      </div>
+      <p><strong>Original:</strong> Identification of features common among primates or unique to humans will require several primate genomes.</p>
+      <textarea placeholder="Type your revision here..."></textarea>
+      <button class="show-answer" data-target="d3-a2">Show Answer</button>
+      <div id="d3-a2" class="sample-answer">
+        <p><strong>Revised:</strong> Researchers will need several primate genomes to identify features common among primates or unique to humans.</p>
+      </div>
+      <div id="quiz-d3"></div>
+      <script>
+        const quizD3 = [
+          {
+            question: "주어로 등장인물을 배치해야 하는 이유는?",
+            options: ["문장을 길게 하기 위해", "행위자를 명확히 하기 위해", "주어는 중요하지 않기 때문"],
+            answer: 1
+          },
+          {
+            question: "문단에서 주어를 일관되게 유지하면 어떤 효과가 있는가?",
+            options: ["독자가 흐름을 쉽게 따라간다", "문장이 지루해진다", "내용이 반복된다"],
+            answer: 0
+          }
+        ];
+        document.addEventListener('DOMContentLoaded', () => {
+          renderQuiz(quizD3, 'quiz-d3');
+        });
+      </script>
+    </section>
+
+    <!-- Day 4 -->
+    <section id="day4">
+      <h2>Day 4 – 주어와 동사를 가까이 두기</h2>
+      <p>
+        독자는 문장에서 누가 무엇을 하는지 빠르게 파악하기 원합니다. 주어와 동사 사이에 긴 수식어나
+        목록이 끼어 있으면 이해가 어려워집니다【147290103937316†L223-L249】. 긴 목록을 제시할 때는 먼저 문장이
+        무엇에 관한 것인지 설명하고 그 뒤에 목록을 배치하세요【147290103937316†L254-L264】.
+      </p>
+      <h3>연습 문제</h3>
+      <p><strong>Original:</strong> Farmers that understand the difference between the soil requirements of plants when they are seedlings and their requirements when they are mature are in high demand.</p>
+      <textarea placeholder="Type your revision here..."></textarea>
+      <button class="show-answer" data-target="d4-a1">Show Answer</button>
+      <div id="d4-a1" class="sample-answer">
+        <p><strong>Revised:</strong> Farmers are in high demand if they understand how soil requirements differ between plant seedlings and mature plants.</p>
+      </div>
+      <p><strong>Original:</strong> Peanuts, shrimp, almonds, milk or anything else with lactose, and wheat or anything with gluten all represent things that people are commonly allergic to.</p>
+      <textarea placeholder="Type your revision here..."></textarea>
+      <button class="show-answer" data-target="d4-a2">Show Answer</button>
+      <div id="d4-a2" class="sample-answer">
+        <p><strong>Revised:</strong> People are commonly allergic to things like peanuts, shrimp, almonds, milk products containing lactose, and foods with gluten.</p>
+      </div>
+      <div id="quiz-d4"></div>
+      <script>
+        const quizD4 = [
+          {
+            question: "주어와 동사가 멀리 떨어져 있을 때 생기는 문제는?",
+            options: ["독자가 문장을 쉽게 이해한다", "독자가 다시 읽어야 할 수 있다", "동사가 더 강조된다"],
+            answer: 1
+          },
+          {
+            question: "목록을 명확하게 전달하는 방법은?",
+            options: ["목록을 먼저 나열한 후 문장의 맥락을 제시한다", "먼저 문장이 무엇을 말하는지 설명한 후 목록을 제시한다", "목록을 주어와 동사 사이에 두어 길게 만든다"],
+            answer: 1
+          }
+        ];
+        document.addEventListener('DOMContentLoaded', () => {
+          renderQuiz(quizD4, 'quiz-d4');
+        });
+      </script>
+    </section>
+
+    <!-- Day 5 -->
+    <section id="day5">
+      <h2>Day 5 – 새 정보는 뒤에, 익숙한 정보는 앞에</h2>
+      <p>
+        독자는 익숙한 정보를 문장 앞에서 찾고, 새로운 정보를 끝에서 얻는 것을 기대합니다. 새 정보를
+        문장 앞에 배치하면 독자는 맥락을 찾기 위해 다시 읽어야 하고, 이는 응집성을 떨어뜨립니다【767117776344504†L50-L67】.
+        문장을 검토하여 낯선 정보가 마지막에 오는지 확인하고, 중요한 새 정보는 문장 끝에서 강조하세요【767117776344504†L104-L124】.
+      </p>
+      <h3>연습 문제</h3>
+      <p><strong>Original:</strong> Garden lime, or agricultural limestone, is made from pulverized chalk and can be used to raise the pH of the soil.</p>
+      <textarea placeholder="Type your revision here..."></textarea>
+      <button class="show-answer" data-target="d5-a1">Show Answer</button>
+      <div id="d5-a1" class="sample-answer">
+        <p><strong>Revised:</strong> One way to raise the soil’s pH is to use garden lime, or agricultural limestone, which is made from pulverized chalk.</p>
+      </div>
+      <p><strong>Original:</strong> Clay soil, which is naturally acidic, often requires addition of agricultural lime.</p>
+      <textarea placeholder="Type your revision here..."></textarea>
+      <button class="show-answer" data-target="d5-a2">Show Answer</button>
+      <div id="d5-a2" class="sample-answer">
+        <p><strong>Revised:</strong> Naturally acidic clay soils often require the addition of agricultural lime.</p>
+      </div>
+      <div id="quiz-d5"></div>
+      <script>
+        const quizD5 = [
+          {
+            question: "새로운 정보를 문장 끝에 배치하면 어떤 효과가 있는가?",
+            options: ["강조 효과가 높아진다", "문장이 길어진다", "독자가 앞을 다시 읽는다"],
+            answer: 0
+          },
+          {
+            question: "문장을 검토할 때 무엇을 밑줄 치라고 했는가?",
+            options: ["모든 주어", "새 정보", "모든 동사"],
+            answer: 1
+          }
+        ];
+        document.addEventListener('DOMContentLoaded', () => {
+          renderQuiz(quizD5, 'quiz-d5');
+        });
+      </script>
+    </section>
+
+    <!-- Day 6 -->
+    <section id="day6">
+      <h2>Day 6 – 능동태와 수동태 이해하기</h2>
+      <p>
+        수동태는 문장의 주어가 행위의 객체가 되는 구조이며, 주어와 목적어의 순서를 바꾸고 행위자를
+        생략할 수 있습니다【767117776344504†L133-L151】. 수동태 자체가 나쁜 것은 아니며, 정보의 배치를 조정하거나
+        행위자가 불필요할 때 유용합니다. 그러나 과도한 사용은 행위자가 모호해지고 글이 길어지는 단점이
+        있습니다【767117776344504†L167-L207】. 가능한 한 능동태를 사용하고, 필요할 때만 수동태를 선택하세요.
+      </p>
+      <h3>연습 문제</h3>
+      <p><strong>Original:</strong> The samples were collected and analyzed by the researchers.</p>
+      <textarea placeholder="Type your revision here..."></textarea>
+      <button class="show-answer" data-target="d6-a1">Show Answer</button>
+      <div id="d6-a1" class="sample-answer">
+        <p><strong>Revised:</strong> The researchers collected and analyzed the samples.</p>
+      </div>
+      <p><strong>Original:</strong> The DNA was sequenced using the n‑terminus method.</p>
+      <textarea placeholder="Type your revision here..."></textarea>
+      <button class="show-answer" data-target="d6-a2">Show Answer</button>
+      <div id="d6-a2" class="sample-answer">
+        <p><strong>Revised:</strong> We used the n‑terminus method to sequence the DNA.</p>
+      </div>
+      <div id="quiz-d6"></div>
+      <script>
+        const quizD6 = [
+          {
+            question: "수동태를 사용해야 하는 상황은 언제인가?",
+            options: ["행위자가 불필요하거나 이미 알려져 있을 때", "항상", "절대 사용하지 않는다"],
+            answer: 0
+          },
+          {
+            question: "다음 문장을 능동태로 바꾸면? 'The cells were observed under a microscope by the team.'",
+            options: ["The cells were observed under a microscope", "The team observed the cells under a microscope", "Under a microscope the cells were observed by the team"],
+            answer: 1
+          }
+        ];
+        document.addEventListener('DOMContentLoaded', () => {
+          renderQuiz(quizD6, 'quiz-d6');
+        });
+      </script>
+    </section>
+
+    <!-- Day 7 -->
+    <section id="day7">
+      <h2>Day 7 – 문단의 coherence와 cohesion</h2>
+      <p>
+        문단은 하나의 생각을 전달하는 단위입니다. <em>cohesion</em>은 문장 간 접착력, <em>coherence</em>는 문단의
+        논리적 통일성을 의미합니다. 문단의 첫 문장은 주제를 소개하고 마지막 문장은 그 주제를
+        정리해야 하며, 중간 문장들은 주제를 발전시켜야 합니다【767117776344504†L230-L258】. 예를 들어, 서로 관련 없는
+        내용을 나열하면 응집력은 있지만 통일성이 떨어집니다. 각 문단을 검토할 때 첫 문장과 마지막
+        문장이 같은 주제를 다루는지 확인하세요.
+      </p>
+      <h3>연습 문제</h3>
+      <p><strong>Original:</strong> My favorite animal is the domestic cat. Cats were domesticated almost 10,000 years ago in ancient Mesopotamia. Mesopotamia is a name that literally means “the land between two rivers,” taken from Greek.</p>
+      <textarea placeholder="Type your revision here..."></textarea>
+      <button class="show-answer" data-target="d7-a1">Show Answer</button>
+      <div id="d7-a1" class="sample-answer">
+        <p><strong>Revised:</strong> My favorite animal is the domestic cat. Cats were domesticated almost 10,000 years ago in ancient Mesopotamia. This ancient region, whose name means “the land between two rivers” in Greek, is where humans and cats first forged their bond.</p>
+      </div>
+      <p><strong>Original:</strong> The study of memory is fascinating. Attention is another critical process. Neuroimaging allows us to examine these processes in the brain.</p>
+      <textarea placeholder="Type your revision here..."></textarea>
+      <button class="show-answer" data-target="d7-a2">Show Answer</button>
+      <div id="d7-a2" class="sample-answer">
+        <p><strong>Revised:</strong> Memory and attention are two fascinating cognitive processes. Neuroimaging allows us to examine both processes in the brain.</p>
+      </div>
+      <div id="quiz-d7"></div>
+      <script>
+        const quizD7 = [
+          {
+            question: "coherence를 확보하기 위한 방법은?",
+            options: ["문단의 첫 문장과 마지막 문장이 같은 주제를 다루도록 한다", "관련 없는 주제를 여러 개 나열한다", "문단을 너무 길게 늘린다"],
+            answer: 0
+          },
+          {
+            question: "cohesion이 있는데 coherence가 없는 경우는?",
+            options: ["문장이 서로 이어지지만 주제가 계속 바뀌는 경우", "주제는 일정하지만 문장이 서로 연결되지 않는 경우", "둘 다 없는 경우"],
+            answer: 0
+          }
+        ];
+        document.addEventListener('DOMContentLoaded', () => {
+          renderQuiz(quizD7, 'quiz-d7');
+        });
+      </script>
+    </section>
+
+    <footer>
+      <a href="week2.html">다음 주차&nbsp;→ 2주차</a>
+    </footer>
+  </body>
+</html>

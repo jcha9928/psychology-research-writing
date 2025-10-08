@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>2주차 – 과학 글쓰기 워크북</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="logo">과학 글쓰기 워크북</div>
+        <ul>
+          <li><a href="index.html">홈</a></li>
+          <li><a href="week1.html">1주차</a></li>
+          <li><a href="week2.html">2주차</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section>
+      <h1>2주차 학습</h1>
+      <p>
+        두 번째 주에는 간결성과 단순함, 수정 전략, 능동/수동태 심화, 그리고 논문 작성 규칙을 다룹니다.
+        각 날의 내용과 연습 문제를 통해 글을 더 명확하고 구조적으로 개선해 보세요.
+      </p>
+    </section>
+
+    <!-- Day 8 -->
+    <section id="day8">
+      <h2>Day 8 – 불필요한 단어 없애기</h2>
+      <p>
+        불필요한 단어를 제거하면 문장의 길이를 줄이고 의미를 명확히 할 수 있습니다. “note that”,
+        “it should be noted that”, “respectively” 같은 효과 없는 문구를 삭제하고, “a large number of” 대신
+        “many”, “due to the fact that” 대신 “because”처럼 간단한 단어로 바꾸세요【564343839736223†L54-L77】【564343839736223†L80-L116】.
+      </p>
+      <h3>연습 문제</h3>
+      <p><strong>Original:</strong> It should be noted that participants were allowed to withdraw at any time during the study.</p>
+      <textarea placeholder="Type your revision here..."></textarea>
+      <button class="show-answer" data-target="d8-a1">Show Answer</button>
+      <div id="d8-a1" class="sample-answer">
+        <p><strong>Revised:</strong> Participants were allowed to withdraw at any time during the study.</p>
+      </div>
+      <p><strong>Original:</strong> Due to the fact that we collected a large number of samples, the analysis took a considerable amount of time.</p>
+      <textarea placeholder="Type your revision here..."></textarea>
+      <button class="show-answer" data-target="d8-a2">Show Answer</button>
+      <div id="d8-a2" class="sample-answer">
+        <p><strong>Revised:</strong> Because we collected many samples, the analysis took a long time.</p>
+      </div>
+      <div id="quiz-d8"></div>
+      <script>
+        const quizD8 = [
+          {
+            question: "효과 없는 문구를 삭제하면 어떤 이점이 있는가?",
+            options: ["문장이 길어진다", "문장의 의미가 명확해진다", "읽기 어려워진다"],
+            answer: 1
+          },
+          {
+            question: "'a large number of'를 간단히 표현하면?",
+            options: ["numerous", "a large quantity of", "many"],
+            answer: 2
+          }
+        ];
+        document.addEventListener('DOMContentLoaded', () => {
+          renderQuiz(quizD8, 'quiz-d8');
+        });
+      </script>
+    </section>
+
+    <!-- Day 9 -->
+    <section id="day9">
+      <h2>Day 9 – 단순한 단어와 주어 사용</h2>
+      <p>
+        길고 복잡한 단어 대신 짧고 간단한 단어를 사용하면 문장이 더 명확해집니다. 예를 들어,
+        “methodology” 대신 “method”, “utilize” 대신 “use”, “etiology” 대신 “cause”를 사용하세요【564343839736223†L153-L180】.
+        또한 주어가 지나치게 길면 주어와 동사 사이의 거리가 늘어나므로, 주어를 간단히 하여 두 정보를
+        가깝게 두세요【564343839736223†L205-L211】.
+      </p>
+      <h3>연습 문제</h3>
+      <p><strong>Original:</strong> The methodology used in this study allowed us to utilize complex algorithms to elucidate the etiology of the disorder.</p>
+      <textarea placeholder="Type your revision here..."></textarea>
+      <button class="show-answer" data-target="d9-a1">Show Answer</button>
+      <div id="d9-a1" class="sample-answer">
+        <p><strong>Revised:</strong> The method used in this study allowed us to use complex algorithms to determine the cause of the disorder.</p>
+      </div>
+      <p><strong>Original:</strong> The sequences that had passed our filtering, trimming, and alignment with ClustalX were scanned for conserved elements across mammals.</p>
+      <textarea placeholder="Type your revision here..."></textarea>
+      <button class="show-answer" data-target="d9-a2">Show Answer</button>
+      <div id="d9-a2" class="sample-answer">
+        <p><strong>Revised:</strong> We scanned sequences that passed our filtering, trimming and alignment with ClustalX for conserved elements across mammals.</p>
+      </div>
+      <div id="quiz-d9"></div>
+      <script>
+        const quizD9 = [
+          {
+            question: "‘utilize’의 간단한 대체어는?",
+            options: ["use", "employ", "manipulate"],
+            answer: 0
+          },
+          {
+            question: "복잡한 주어를 단순화하면 어떤 효과가 있는가?",
+            options: ["주어와 동사 사이 거리를 줄여 이해를 돕는다", "문장이 더 장황해진다", "동사가 사라진다"],
+            answer: 0
+          }
+        ];
+        document.addEventListener('DOMContentLoaded', () => {
+          renderQuiz(quizD9, 'quiz-d9');
+        });
+      </script>
+    </section>
+
+    <!-- Day 10 -->
+    <section id="day10">
+      <h2>Day 10 – 형용사와 부사를 절제하기</h2>
+      <p>
+        형용사와 부사는 정보를 풍부하게 하지만, 남용하면 글을 지루하고 모호하게 만듭니다. “very”,
+        “significantly”, “broadly” 같은 강조 부사는 자주 불필요합니다. 대신 구체적인 수치나 사실을 제시해
+        명료함을 유지하세요. 예를 들어 “very large” 대신 실제 숫자를 쓰거나, “broadly consistent” 대신
+        “consistent”라고 표현합니다.
+      </p>
+      <h3>연습 문제</h3>
+      <p><strong>Original:</strong> The results were very significantly different between the two extremely diverse groups.</p>
+      <textarea placeholder="Type your revision here..."></textarea>
+      <button class="show-answer" data-target="d10-a1">Show Answer</button>
+      <div id="d10-a1" class="sample-answer">
+        <p><strong>Revised:</strong> The results differed significantly between the two diverse groups.</p>
+      </div>
+      <p><strong>Original:</strong> Our findings are broadly consistent with previous literature.</p>
+      <textarea placeholder="Type your revision here..."></textarea>
+      <button class="show-answer" data-target="d10-a2">Show Answer</button>
+      <div id="d10-a2" class="sample-answer">
+        <p><strong>Revised:</strong> Our findings are consistent with previous literature.</p>
+      </div>
+      <div id="quiz-d10"></div>
+      <script>
+        const quizD10 = [
+          {
+            question: "형용사와 부사를 절제해야 하는 이유는?",
+            options: ["글을 더 화려하게 하기 위해", "모호함을 줄이고 구체성을 높이기 위해", "문장을 길게 하기 위해"],
+            answer: 1
+          },
+          {
+            question: "‘very large’ 대신 어떤 표현을 권장하는가?",
+            options: ["enormous", "숫자 등 구체적 데이터", "거대하다"],
+            answer: 1
+          }
+        ];
+        document.addEventListener('DOMContentLoaded', () => {
+          renderQuiz(quizD10, 'quiz-d10');
+        });
+      </script>
+    </section>
+
+    <!-- Day 11 -->
+    <section id="day11">
+      <h2>Day 11 – Smart Revising: 효과적인 수정 전략</h2>
+      <p>
+        Smart Revising은 글을 쓴 후 여러 번 수정하는 것을 강조합니다. 처음에는 자유롭게 쓰고, 이후
+        수정 단계에서 명사화 밑줄 치기, 동사 검토, 문장 주제 확인 등 기계적인 작업을 수행하세요. 또한
+        문단의 첫 문장과 마지막 문장을 확인하고, 소리 내어 읽어보며 리듬과 명료성을 체크하고, 외부
+        독자의 피드백을 받는 것이 좋습니다.
+      </p>
+      <h3>연습 문제</h3>
+      <p><strong>Original:</strong> This investigation of synaptic plasticity mechanisms resulted in the identification of several key proteins.</p>
+      <textarea placeholder="Type your revision here..."></textarea>
+      <button class="show-answer" data-target="d11-a1">Show Answer</button>
+      <div id="d11-a1" class="sample-answer">
+        <p><strong>Revised:</strong> This study of synaptic plasticity mechanisms identified several key proteins.</p>
+      </div>
+      <p><strong>Original:</strong> The observation of participants’ reactions during the experiment was made by two independent raters.</p>
+      <textarea placeholder="Type your revision here..."></textarea>
+      <button class="show-answer" data-target="d11-a2">Show Answer</button>
+      <div id="d11-a2" class="sample-answer">
+        <p><strong>Revised:</strong> Two independent raters observed participants’ reactions during the experiment.</p>
+      </div>
+      <div id="quiz-d11"></div>
+      <script>
+        const quizD11 = [
+          {
+            question: "Smart Revising의 핵심 전략이 아닌 것은?",
+            options: ["소리 내어 읽어보기", "명사화와 동사에 밑줄 치기", "첫째 초안에서 완벽하게 쓰기"],
+            answer: 2
+          },
+          {
+            question: "수정 단계에서 외부 독자를 활용해야 하는 이유는?",
+            options: ["문장의 길이를 늘리기 위해", "새로운 시각에서 피드백을 받기 위해", "부끄럽기 때문에"],
+            answer: 1
+          }
+        ];
+        document.addEventListener('DOMContentLoaded', () => {
+          renderQuiz(quizD11, 'quiz-d11');
+        });
+      </script>
+    </section>
+
+    <!-- Day 12 -->
+    <section id="day12">
+      <h2>Day 12 – Passive Voice 심화</h2>
+      <p>
+        능동태와 수동태의 균형을 이해하는 것이 중요합니다. 수동태는 주어와 목적어를 교환하고 행위자를
+        생략할 수 있어 정보 배치에 도움이 되지만, 지나치면 모호함과 길이를 증가시킵니다. 수동태의
+        문제점으로는 행위자의 모호함, dangling modifier 발생, 불필요한 길이 등이 있습니다【767117776344504†L167-L207】.
+        Nature와 Science 등 주요 저널은 능동태 사용을 권장합니다. 수동태는 구체적인 이유가 있을 때만
+        사용하고, 행위자가 모호해지지 않도록 항상 확인하세요.
+      </p>
+      <h3>연습 문제</h3>
+      <p><strong>Original:</strong> The data were interpreted and the conclusions were drawn.</p>
+      <textarea placeholder="Type your revision here..."></textarea>
+      <button class="show-answer" data-target="d12-a1">Show Answer</button>
+      <div id="d12-a1" class="sample-answer">
+        <p><strong>Revised:</strong> We interpreted the data and drew the conclusions.</p>
+      </div>
+      <p><strong>Original:</strong> The ball was chased by the dog.</p>
+      <textarea placeholder="Type your revision here..."></textarea>
+      <button class="show-answer" data-target="d12-a2">Show Answer</button>
+      <div id="d12-a2" class="sample-answer">
+        <p><strong>Revised:</strong> The dog chased the ball.</p>
+      </div>
+      <div id="quiz-d12"></div>
+      <script>
+        const quizD12 = [
+          {
+            question: "수동태 남용의 결과는 무엇이 아닌가?",
+            options: ["행위자가 모호해진다", "문장이 짧아진다", "dangling modifier가 나타날 수 있다"],
+            answer: 1
+          },
+          {
+            question: "능동태 사용을 권장하는 이유는?",
+            options: ["객관성을 떨어뜨리기 위해", "문장 길이를 줄이고 명확성을 높이기 위해", "문장을 더 과학적으로 보이게 하기 위해"],
+            answer: 1
+          }
+        ];
+        document.addEventListener('DOMContentLoaded', () => {
+          renderQuiz(quizD12, 'quiz-d12');
+        });
+      </script>
+    </section>
+
+    <!-- Day 13 -->
+    <section id="day13">
+      <h2>Day 13 – 과학 글쓰기의 10가지 규칙</h2>
+      <p>
+        Cody Weinberger와 동료들의 “Ten Simple Rules for Writing Science” 논문에서는 과학 글쓰기를 개선하는
+        경험적 규칙을 제시합니다. 여기서는 10가지 규칙을 요약합니다:
+      </p>
+      <ol>
+        <li>Write to the level of your audience.</li>
+        <li>Keep it short and simple: brevity and clarity matter.</li>
+        <li>Use the present tense for general statements and past tense for specific results.</li>
+        <li>Focus on the main message; avoid digressions.</li>
+        <li>Use figures and tables to convey complex information efficiently.</li>
+        <li>Use transitions to guide readers through your argument.</li>
+        <li>Revise multiple times; good writing is rewriting.</li>
+        <li>Seek feedback from peers and mentors.</li>
+        <li>Read widely to learn different writing styles.</li>
+        <li>Enjoy the process; enthusiasm shows in your writing.</li>
+      </ol>
+      <h3>연습 문제</h3>
+      <p><strong>Original:</strong> The study makes use of an extremely complicated methodology that is described in exhaustive detail, which may confuse readers.</p>
+      <textarea placeholder="Type your revision here..."></textarea>
+      <button class="show-answer" data-target="d13-a1">Show Answer</button>
+      <div id="d13-a1" class="sample-answer">
+        <p><strong>Revised:</strong> The study uses a complex method, but here we provide only the essential details to avoid confusing readers.</p>
+      </div>
+      <p><strong>Original:</strong> According to our data, which we collected over the past three years, we hypothesize that this mechanism is likely to be important.</p>
+      <textarea placeholder="Type your revision here..."></textarea>
+      <button class="show-answer" data-target="d13-a2">Show Answer</button>
+      <div id="d13-a2" class="sample-answer">
+        <p><strong>Revised:</strong> Based on data collected over the past three years, we hypothesize that this mechanism is important.</p>
+      </div>
+      <div id="quiz-d13"></div>
+      <script>
+        const quizD13 = [
+          {
+            question: "Cody Weinberger 등의 규칙에서 강조하지 않는 내용은?",
+            options: ["독자의 수준에 맞춰 글을 쓰기", "긴 배경 설명으로 독자를 압도하기", "여러 번 수정하기"],
+            answer: 1
+          },
+          {
+            question: "글쓰기를 즐기는 것이 왜 중요한가?",
+            options: ["즐거움이 글에 드러나기 때문이다", "시간을 줄이기 위해", "혼자 작업하기 위해"],
+            answer: 0
+          }
+        ];
+        document.addEventListener('DOMContentLoaded', () => {
+          renderQuiz(quizD13, 'quiz-d13');
+        });
+      </script>
+    </section>
+
+    <!-- Day 14 -->
+    <section id="day14">
+      <h2>Day 14 – 논문 구조화와 최종 연습</h2>
+      <p>
+        Konrad Kording와 Brett Mensh의 “Ten simple rules for structuring papers”에서는 논문을 체계적으로
+        작성하는 10가지 방법을 제시합니다. 요약하면:
+      </p>
+      <ol>
+        <li>Present only one central contribution per paper.</li>
+        <li>Write for human beings who do not know your work.</li>
+        <li>Stick to the context–content–conclusion (CCC) scheme.</li>
+        <li>Optimize your logical flow by avoiding zig-zag and using parallelism.</li>
+        <li>Tell a complete story in the abstract.</li>
+        <li>Get across why the paper matters in the introduction.</li>
+        <li>Communicate the results as a sequence of statements that build on one another.</li>
+        <li>Discuss how the gap was filled, the limitations, and relevance in the discussion.</li>
+        <li>Allocate time where it matters: Title, abstract, figures, and outlining.</li>
+        <li>Iterate; solicit feedback and polish the language.</li>
+      </ol>
+      <p>
+        최종 과제로, 한 문단 길이의 간단한 연구 요약을 작성해 보세요. 연구 주제, 핵심 결과, 결론을
+        한 문단으로 요약하고, 위 규칙을 참고해 명확하고 간결하게 작성합니다. 아래 공간에 여러분의
+        요약을 적어보세요.
+      </p>
+      <textarea placeholder="Write your paragraph summary here..."></textarea>
+      <p>
+        요약을 작성한 후 동료나 지도교수에게 보여주고 피드백을 받아 수정하는 것이 좋습니다. 여러 번
+        수정하면서 내용과 구조를 다듬어 보세요.
+      </p>
+      <div id="quiz-d14"></div>
+      <script>
+        const quizD14 = [
+          {
+            question: "논문에서 한 가지 중심 기여를 제시해야 하는 이유는?",
+            options: ["독자가 핵심 메시지를 기억하기 쉽게 하기 위해", "여러 기여를 동시에 전달하기 위해", "논문 길이를 늘리기 위해"],
+            answer: 0
+          },
+          {
+            question: "CCC 구조에서 C는 무엇을 의미하는가?",
+            options: ["Contribution", "Context", "Conclusion"],
+            answer: 2
+          }
+        ];
+        document.addEventListener('DOMContentLoaded', () => {
+          renderQuiz(quizD14, 'quiz-d14');
+        });
+      </script>
+    </section>
+
+    <footer>
+      <a href="index.html">완료! 홈으로 돌아가기</a>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,221 @@
+# 심리과학 연구방법 - 롸이팅 (Psychology Research Writing Course)
+
+## 📚 Course Overview
+
+6주 집중 대학원 논문 작성 과정 (심리학과 석사/박사)
+- **대상**: 심리학과 대학원생 (석사/박사)
+- **목표**: "어떻게 하면 탑티어 저널에 출불할 만한 탑 5%의 논문을 쓸 것인가"
+- **구조**: IMRaD format (Introduction, Methods, Results, and Discussion)
+- **AI 도구**: ChatGPT, Claude, Perplexity, Elicit
+
+## 🎯 Ultimate Learning Goal
+
+**"어떻게 하면 탑티어 저널에 출판할 만한 탑 5%의 논문을 쓸 것인가"**
+
+이 목표를 달성하기 위해:
+- AI 툴을 적극적으로 사용
+- 각자의 레시피를 공유
+- 결과를 공유하고 서로 피드백
+- 개념 설명보다는 실전 전략에 집중
+
+## ⚠️ CRITICAL CONTEXT: Week 2-4 Revision Principle
+
+**윤경생 박사님의 AI 개념 강의와 중복 제거**
+
+학생들은 윤경생 박사님 강의에서 이미 다음을 학습했습니다:
+- Prompt Engineering 기초 (Instruction, Context, Input, Output)
+- Parameters (Temperature, Top-k, Top-p)
+- In-context Learning (zero-shot, one-shot, few-shot)
+- RAG (Retrieval-Augmented Generation)
+- Chain-of-Thought (CoT) prompting
+- RLHF, Multimodal models
+
+따라서 Week 2-4는 **개념 설명을 완전히 제거**하고 **실전 전략에만 집중**:
+
+| Week | 변경 전 | 변경 후 |
+|------|---------|---------|
+| Week 2 | 프롬프트 엔지니어링 기초 | Nature/Science 초록 전략 |
+| Week 3 | RAG 개념 설명 | 체계적 Gap 발견 워크플로우 |
+| Week 4 | CoT 개념 설명 | Methods/Results Bulletproofing |
+
+## 📁 File Structure
+
+```
+.
+├── CLAUDE.md                           # This file
+├── 강의계획.md                         # Overall course structure
+├── overlap_analysis.md                 # Analysis of overlap with 윤경생's lectures
+│
+├── claudedocs/                         # Strategy documents (for instructors)
+│   ├── comprehensive_revision_plan.md  # Master implementation plan
+│   ├── week2_revision_strategy.md      # Nature/Science abstract strategies
+│   ├── week3_revision_strategy.md      # Gap discovery workflows
+│   └── week4_revision_strategy.md      # Methods/Results bulletproofing
+│
+├── week1/                              # Human-centered writing (no AI)
+│   └── lecture_notes.md                # Focus on reader-centered communication
+│
+├── week2/                              # AI 활용 I - 초록
+│   └── lecture_notes.md                # Nature/Science abstract strategies (395 lines)
+│
+├── week3/                              # AI 활용 II - 문헌 리뷰
+│   └── lecture_notes.md                # Systematic gap discovery (553 lines)
+│
+├── week4/                              # AI 활용 III - 방법/결과
+│   └── lecture_notes.md                # Methods/Results bulletproofing (718 lines)
+│
+├── week5/                              # Discussion section
+│   └── lecture_notes.md
+│
+├── week6/                              # Peer review & revision
+│   └── lecture_notes.md
+│
+└── 윤경생슬라이드/                     # Dr. Yoon's AI concept lectures
+    ├── 1주차.pdf
+    ├── 2주차.pdf                       # 68-page Prompt Engineering lecture
+    └── 3주차.pdf
+```
+
+## 📖 Weekly Structure
+
+### Week 1: Human-Centered Writing (no AI)
+- C-C-C structure (Context-Content-Conclusion)
+- Reader-centered communication
+- No AI tools - focus on fundamental writing principles
+
+### Week 2: AI 활용 I - Nature/Science급 초록 작성
+**NO PROMPT ENGINEERING BASICS** (students already learned from 윤경생)
+
+Focus areas:
+- Top-tier abstract differentiation (Nature/Science vs general journals)
+- 4 opening patterns (Problem/Gap/Opportunity/Challenge-driven)
+- Broad significance framing
+- Quantitative result presentation
+- 40+ AI prompt recipes for abstract writing
+
+### Week 3: AI 활용 II - 체계적 Research Gap 발견
+**NO RAG CONCEPT EXPLANATIONS** (students already learned from 윤경생)
+
+Focus areas:
+- Gap classification (Conceptual vs Incremental)
+- 3-stage gap validation workflow
+- False gap prevention strategies
+- Cross-disciplinary connection mining
+- 30+ AI prompt recipes for gap discovery
+
+### Week 4: AI 활용 III - Methods/Results Bulletproofing
+**NO COT CONCEPT EXPLANATIONS** (students already learned from 윤경생)
+
+Focus areas:
+- Top 10 rejection reasons for Methods/Results
+- Reproducibility checklist (6 critical elements)
+- Control validation strategies
+- Overclaiming prevention
+- Statistical rigor verification
+- 40+ AI prompt recipes for bulletproofing
+
+### Week 5-6: Discussion, Peer Review, Revision
+- Discussion section strategies
+- Structured peer review protocols
+- Iterative improvement workflows
+
+## 🎓 Teaching Philosophy
+
+### 90-Minute Class Structure
+1. **개념 리뷰** (10분): Brief recap (students already know AI concepts)
+2. **전략 강의** (20분): Top-tier publication strategies
+3. **프롬프트 레시피 공유** (20분): Share successful AI prompts
+4. **실습** (30분): Apply strategies to own research
+5. **피어 리뷰** (10분): Structured feedback sessions
+
+### Recipe Sharing Culture
+- Students share their successful AI prompts
+- Build a collective knowledge base
+- Learn from each other's workflows
+- Iterate and improve recipes together
+
+### Structured Peer Review
+- Use provided templates (in lecture notes)
+- Focus on top-tier journal criteria
+- Constructive feedback protocols
+- Evidence-based suggestions
+
+## 🔑 Key Documents
+
+### For Understanding Course Philosophy
+- `강의계획.md`: Overall course structure and goals
+- `overlap_analysis.md`: Why Week 2-4 were completely revised
+- `claudedocs/comprehensive_revision_plan.md`: Complete implementation plan
+
+### For Understanding Week-Specific Strategies
+- `claudedocs/week2_revision_strategy.md`: Nature/Science abstract strategies
+- `claudedocs/week3_revision_strategy.md`: Gap discovery workflows
+- `claudedocs/week4_revision_strategy.md`: Methods/Results bulletproofing
+
+### For Teaching
+- `week1/lecture_notes.md`: Human-centered writing fundamentals
+- `week2/lecture_notes.md`: Top-tier abstract writing (395 lines)
+- `week3/lecture_notes.md`: Systematic gap discovery (553 lines)
+- `week4/lecture_notes.md`: Methods/Results bulletproofing (718 lines)
+
+## 💡 Common Tasks
+
+### Adding New AI Prompt Recipes
+1. Identify the week and section
+2. Follow the existing format:
+   ```markdown
+   ### [Recipe Number]. [Recipe Name]
+   **목적**: [What this achieves]
+   **프롬프트**:
+   ```
+   [Actual prompt template]
+   ```
+   **결과 평가 기준**: [How to evaluate output]
+   ```
+3. Add to the appropriate section in `weekN/lecture_notes.md`
+
+### Updating Strategies
+1. Consult `claudedocs/weekN_revision_strategy.md` for strategic direction
+2. Modify `weekN/lecture_notes.md` for student-facing content
+3. Ensure no AI concept explanations creep back in
+4. Focus on practical application and top-tier publication criteria
+
+### Creating New Examples
+- Use real Nature/Science papers as examples
+- Provide both "before" and "after" versions
+- Include specific metrics (e.g., citation counts, impact factors)
+- Explain why the "after" version is better for top-tier journals
+
+## 🚫 What NOT to Do
+
+**DO NOT add AI concept explanations to Week 2-4:**
+- ❌ "프롬프트는 Instruction, Context, Input, Output으로 구성됩니다" (students already know)
+- ❌ "Temperature는 생성의 무작위성을 조절합니다" (students already know)
+- ❌ "RAG는 외부 문서를 검색하여 답변합니다" (students already know)
+- ❌ "CoT는 단계별로 사고하게 합니다" (students already know)
+
+**DO add application strategies:**
+- ✅ "Nature 초록은 일반 초록과 다르게 broad significance를 강조합니다"
+- ✅ "Gap validation을 위한 3단계 워크플로우를 사용하세요"
+- ✅ "Methods 섹션의 reproducibility checklist 6가지 항목"
+
+## 🎯 Success Metrics
+
+Students should be able to:
+1. Write Nature/Science-level abstracts with differentiated opening strategies
+2. Systematically discover and validate conceptual gaps (not incremental gaps)
+3. Bulletproof Methods/Results sections against top-tier journal rejection
+4. Use AI tools effectively (not just know what they are)
+5. Share prompts, results, and provide structured peer feedback
+6. Apply strategies to their own research immediately
+
+## 📝 Notes for Future Claude Instances
+
+- This is **not a software project** - it's course material
+- No code to build, test, or deploy
+- Focus on content quality, pedagogical effectiveness, and strategic alignment
+- Always check overlap with 윤경생's lectures before adding content
+- The ultimate goal is always: "어떻게 하면 탑 5%의 논문을 쓸 것인가"
+- Students are psychology graduate students, not computer science students
+- Examples should come from psychology/neuroscience research when possible
+- All AI tool usage should be practical and immediately applicable to research writing
