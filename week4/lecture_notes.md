@@ -11,6 +11,36 @@
 
 ---
 
+## 📚 수업 전 준비 (과제)
+
+**필수 과제**: Methods & Results 섹션 초안 작성
+- **Methods** (800-1000 words): Participants, Materials, Procedure, Analysis 포함
+- **Results** (600-800 words): 주요 결과 + 최소 1개 Figure/Table
+- Week 3의 gap을 해결하는 연구 방법론 제시
+- 완벽하지 않아도 됨 - 수업에서 AI로 bulletproofing할 예정
+
+---
+
+## 🎓 90분 Workshop 구조
+
+**강의 15-20분** + **Workshop/Discussion 70-75분**
+
+학생들은 자신의 Methods/Results를 가지고 와서:
+- AI로 reproducibility audit (취약점 10개 찾기)
+- Control strategy 검증 (alternative explanation 배제)
+- Statistical rigor 체크 (power, assumptions, effect size)
+- Overclaiming 방지 (claim-evidence match)
+- Preemptive reviewer response (예상 질문 대응)
+- 동료 피드백 및 개선
+
+---
+
+## 📊 90분 In-Class Workshop 진행
+
+### 짧은 강의 (15-20분)
+
+**핵심 개념 리뷰:**
+
 ## 1. 탑티어 저널의 Methods/Results 거부 사유
 
 ### 1.1 Common Rejection Patterns
@@ -547,29 +577,29 @@ Cohen's d = 1.12, 95% CI [0.71, 1.53]"
 
 ---
 
-## 실습 워크플로우 (90분 수업)
+## Workshop 실습 (70-75분)
 
-### Phase 1: Bulletproofing Audit (30분)
+### Phase 1: Bulletproofing Audit (25분)
 
-**Activity 1 (15분): Methods reproducibility check**
+**Activity 1 (12분): Methods reproducibility check**
 - AI로 재현성 취약점 10가지 도출
 - 각 취약점 개선 방법 논의
 
-**Activity 2 (15분): Results claim checker**
+**Activity 2 (13분): Results claim checker**
 - Overclaiming 위험 문장 식별
 - Effect size + practical significance 평가
 
-### Phase 2: Statistical Rigor (25분)
+### Phase 2: Statistical Rigor (20분)
 
-**Activity 3 (15분): Power analysis review**
+**Activity 3 (12분): Power analysis review**
 - AI로 sample size 정당화 강화
 - Multiple comparison 보정 체크
 
-**Activity 4 (10분): Transparency audit**
+**Activity 4 (8분): Transparency audit**
 - Selective reporting 위험 평가
 - 추가 보고 필요 항목 리스트
 
-### Phase 3: Peer Review (25분)
+### Phase 3: Peer Review (20분)
 
 **Activity 5: Structured peer review**
 - 2명 동료 평가 (template 사용)
@@ -578,8 +608,10 @@ Cohen's d = 1.12, 95% CI [0.71, 1.53]"
 ### Phase 4: 최종 개선 + 공유 (10분)
 
 **Activity 6: AI로 피드백 통합**
-- 받은 피드백 반영한 개선안 생성
-- 가장 효과적이었던 bulletproofing 전략 공유
+- 받은 피드백 반영한 개선안 생성 (7분)
+- 가장 효과적이었던 bulletproofing 전략 공유 (3분)
+
+**총 Workshop 시간: 75분 (강의 15-20분 포함하면 90-95분)**
 
 ---
 

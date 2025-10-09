@@ -11,6 +11,35 @@
 
 ---
 
+## 📚 수업 전 준비 (과제)
+
+**필수 과제**: Literature review 초안 + Gap statement 작성
+- Introduction 섹션의 문헌 리뷰 부분 (800-1000 words)
+- 자신의 연구 gap을 1-2 단락으로 명확히 서술
+- Week 2에서 작성한 초록의 gap을 확장하는 형태도 가능
+- 완벽하지 않아도 됨 - 수업에서 AI로 개선하고 검증할 예정
+
+---
+
+## 🎓 90분 Workshop 구조
+
+**강의 15-20분** + **Workshop/Discussion 70-75분**
+
+학생들은 자신의 literature review와 gap statement를 가지고 와서:
+- AI로 gap의 질을 평가 (Incremental vs Conceptual)
+- 체계적 gap validation 워크플로우 실행
+- False gap 걸러내기
+- Gap-driven 구조로 재구성
+- 동료 피드백 및 개선
+
+---
+
+## 📊 90분 In-Class Workshop 진행
+
+### 짧은 강의 (15-20분)
+
+**핵심 개념 리뷰:**
+
 ## 1. 탑티어 저널의 "Gap" 기준
 
 ### 1.1 일반 저널 vs Nature/Science의 Gap 차이
@@ -377,28 +406,28 @@ AI 강화 버전 3개 생성
 
 ---
 
-## 실습 워크플로우 (90분 수업)
+## Workshop 실습 (70-75분)
 
-### Phase 1: Gap Discovery (30분)
+### Phase 1: Gap Discovery (20분)
 
-**Activity 1 (15분): AI를 활용한 landscape mapping**
+**Activity 1 (10분): AI를 활용한 landscape mapping**
 - 각자 자신의 연구 주제로 contradiction mining
 - Cross-disciplinary connection 탐색
 - AI 제시 논문 중 3편 Google Scholar 검증
 
-**Activity 2 (15분): Critical review analysis**
+**Activity 2 (10분): Critical review analysis**
 - 주요 논문 5편의 한계점을 4가지 카테고리로 분류
 - AI로 공통 한계점에서 gap 도출
 - 가장 유망한 gap 3개 선별
 
-### Phase 2: Gap Validation & Crafting (30분)
+### Phase 2: Gap Validation & Crafting (25분)
 
-**Activity 3 (15분): Gap validation**
+**Activity 3 (12분): Gap validation**
 - AI로 false gap 체크
 - Google Scholar로 실제 검증 (키워드 5개 조합)
 - 동료에게 "진짜 gap인가?" 질문
 
-**Activity 4 (15분): Gap statement crafting**
+**Activity 4 (13분): Gap statement crafting**
 - AI로 3가지 버전 생성 (다른 framing)
 - 강한 gap statement 요소 포함 여부 체크
   - Broader significance?
@@ -418,6 +447,8 @@ AI 강화 버전 3개 생성
 - 가장 효과적이었던 gap discovery 전략 공유 (3분)
   - 어떤 AI 프롬프트가 유용했는가?
   - False gap을 어떻게 걸러냈는가?
+
+**총 Workshop 시간: 75분 (강의 15-20분 포함하면 90-95분)**
 
 ---
 
