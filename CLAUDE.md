@@ -50,13 +50,16 @@
 │   ├── comprehensive_revision_plan.md  # Master implementation plan
 │   ├── week2_revision_strategy.md      # Nature/Science abstract strategies
 │   ├── week3_revision_strategy.md      # Gap discovery workflows
-│   └── week4_revision_strategy.md      # Methods/Results bulletproofing
+│   ├── week4_revision_strategy.md      # Methods/Results bulletproofing
+│   └── figma_workshop_weeks2-6.md      # Figma AI workshop strategies (Week 2-6)
 │
 ├── week1/                              # Human-centered writing (no AI)
 │   ├── lecture_notes.md                # Original detailed notes (reference)
 │   ├── lesson_notes_compressed_90min.md # Compressed slides: 62→23 (90min workshop)
-│   ├── workshop_materials.md           # Bad Sentences + Smart Revising checklist
-│   └── teaching_guide_90min.md         # Minute-by-minute teaching guide
+│   ├── workshop_materials.md           # Bad Sentences + Bad Paragraphs + Smart Revising (Figma integrated)
+│   ├── bad_paragraphs_real_papers.md   # 4 real PLOS ONE/MDPI paragraphs with before/after analysis
+│   ├── teaching_guide_90min.md         # Minute-by-minute teaching guide (Figma facilitation)
+│   └── figma_workshop_guide.md         # Figma workshop comprehensive guide
 │
 ├── week2/                              # AI 활용 I - 초록
 │   └── lecture_notes.md                # Nature/Science abstract strategies (395 lines)
@@ -82,27 +85,44 @@
 ## 📖 Weekly Structure
 
 ### Week 1: Human-Centered Writing (no AI)
-**90-Minute Workshop Model** (62 slides → 23 slides, 63% compression)
+**90-Minute Figma Workshop Model** (62 slides → 23 slides, 63% compression)
 
 **Structure**:
 - Lecture: 35 min (23 slides) - 10 core principles
-- Workshop: 40 min (44%) - Practice-focused learning
-- Wrap-up: 15 min - Q&A, assignment
+- **Figma Workshop: 50 min (56%)** - Real-time collaborative practice
+- Wrap-up: 5 min - Q&A, assignment
 
 **10 Core Principles**:
 1. **Lesson 1** (주어-동사): Actions in verbs, subjects as subjects, keep them close
 2. **Lesson 2** (응집성): Old→New flow, strategic passive, paragraph coherence
 3. **Lesson 3** (간결성): Remove unnecessary words, simple language, simple subjects, limit modifiers
 
-**Workshop Components**:
-- Stage 1: Bad Sentences 수술실 (10 sentences from original examples)
-- Stage 2: Smart Revising 7-step checklist on own writing
-- Peer feedback protocols
+**Figma Workshop Components**:
+- **Stage 1A** (15min): Bad Sentences 수술실 - 10 sentences on shared canvas
+  - Individual work with Sticky Notes
+  - Real-time peer review with comments
+  - Instructor live feedback
+- **Stage 1B** (15min): Bad Paragraphs from Real Papers - 4 paragraphs from actual PLOS ONE 2024 paper
+  - Students select 2 of 4 paragraphs to analyze
+  - Paragraph-level analysis (Old→New flow, coherence)
+  - Real-world application of Week 1 principles
+- **Stage 2** (20min): Smart Revising with 7-step checklist
+  - Personal work zones for each student
+  - Peer feedback through Figma comments
+  - Live progress monitoring
+
+**Why Figma?**:
+- ✅ Real-time collaboration - see everyone's work simultaneously
+- ✅ Instant feedback - comments and reactions in real-time
+- ✅ Visual learning - compare good/bad examples side-by-side
+- ✅ Persistent record - workshop results saved for future reference
 
 **Materials**:
 - `lesson_notes_compressed_90min.md`: 23 slides with core concepts + best examples
-- `workshop_materials.md`: Practice materials with model answers
-- `teaching_guide_90min.md`: Minute-by-minute teaching guide with scripts
+- `workshop_materials.md`: Practice materials with Figma instructions (now includes Bad Paragraphs)
+- `bad_paragraphs_real_papers.md`: 4 real paper paragraphs with detailed analysis
+- `teaching_guide_90min.md`: Minute-by-minute guide with Figma facilitation
+- `figma_workshop_guide.md`: Comprehensive Figma setup and operation guide
 
 ### Week 2: AI 활용 I - Nature/Science급 초록 작성
 **NO PROMPT ENGINEERING BASICS** (students already learned from 윤경생)
@@ -171,6 +191,99 @@ Focus areas:
 - Focus on top-tier journal criteria
 - Constructive feedback protocols
 - Evidence-based suggestions
+
+## 🎨 Figma Interactive Workshops
+
+### Overview
+All workshops (Week 1-6) use **Figma real-time collaborative canvas** for interactive, engaging learning experiences.
+
+### Why Figma Across All Weeks?
+- **Real-time Collaboration**: All students see each other's work simultaneously
+- **Instant Feedback**: Comments, reactions, and instructor guidance in real-time
+- **Visual Learning**: Side-by-side comparison of approaches and results
+- **Persistent Record**: Workshop results archived for future reference
+- **Scalable**: Works for 6-50 students equally well
+
+### Week 1: Human-Centered Writing Workshop
+**Canvas Structure**:
+- Left Panel: Writing principles reference (read-only)
+- Right Area: Bad Sentences + Smart Revising work zones
+- Student work with Sticky Notes
+- Real-time peer review with comments
+
+**Key Features**:
+- Individual Sticky Notes for problem identification
+- Collaborative peer feedback
+- Live instructor curation
+- Model answers revealed progressively
+
+### Week 2-6: AI-Enhanced Workshops
+**Canvas Structure**:
+- Left Panel: Strategy reference + evaluation criteria + example prompts
+- Right Area: Individual student experiment zones
+- Recipe library section (accumulates over weeks)
+
+**3-Stage Process**:
+1. **Individual Experimentation** (10min): Students test AI prompts, record Input-Prompt-Output in their zones
+2. **Peer Review** (10min): Students evaluate each other's results using criteria, provide feedback via comments
+3. **Collective Curation** (10min): Instructor highlights best recipes, adds to recipe library
+
+**Week-Specific Adaptations**:
+- **Week 2**: Opening strategy experiments, significance framing
+- **Week 3**: Gap discovery validation, 3-stage workflow
+- **Week 4**: Red Team/Blue Team bulletproofing game
+- **Week 5**: Discussion section construction
+- **Week 6**: Round-robin comprehensive peer review
+
+### Recipe Library (Cumulative)
+A persistent section in Figma that grows each week:
+```
+Week 2 Best Recipes:
+• Problem-Driven Opening (학생C, 4.8/5)
+• Quantitative Result Emphasis (학생A, 4.6/5)
+
+Week 3 Best Recipes:
+• Conceptual Gap Discovery (학생B, 4.9/5)
+• 3-Stage Validation (학생D, 4.7/5)
+
+[Continues Week 4-6...]
+```
+
+### Instructor Facilitation
+**Real-time Monitoring**:
+- Watch all student zones simultaneously
+- Instant feedback via comments
+- Highlight good examples with @mentions
+- Guide struggling students with hints
+
+**Quality Curation**:
+- React to good work with emojis/comments
+- Share exceptional examples with @everyone
+- Build recipe library from best contributions
+- Export to PDF after each session
+
+### Setup Requirements
+**Before Class** (10 minutes prior):
+1. Copy Figma template for the week
+2. Adjust student work zones (6-12 typical)
+3. Generate sharing link with edit permissions
+4. Send link to students via email/messaging
+
+**Class Start** (5 minutes):
+1. Confirm all students connected
+2. Quick Figma tour (N key for notes, C key for comments)
+3. Show canvas structure
+4. Begin lecture
+
+### Technical Notes
+- **No app installation required**: Works in any browser
+- **Auto-save**: No manual saving needed
+- **Concurrent editing**: Figma handles conflicts automatically
+- **Export options**: PDF, images, or keep in Figma permanently
+
+### Files
+- `week1/figma_workshop_guide.md`: Week 1 complete guide with canvas layouts, scripts, troubleshooting
+- `claudedocs/figma_workshop_weeks2-6.md`: Week 2-6 strategies, AI experiment structures, recipe library system
 
 ## 🔑 Key Documents
 

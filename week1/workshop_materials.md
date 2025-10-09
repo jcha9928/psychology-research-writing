@@ -1,9 +1,90 @@
 # Week 1 Workshop Materials
-## 실습 자료 (40분용)
+## 실습 자료 (50분용)
+
+**업데이트**: Bad Paragraphs 추가로 40분 → 50분으로 확장
+- Stage 1A: Bad Sentences (15분)
+- Stage 1B: Bad Paragraphs from Real Papers (15분) ← 신규 추가
+- Stage 2: Smart Revising (20분)
 
 ---
 
-## Workshop Stage 1: Bad Sentences 수술실 (20분)
+## 🎨 Figma 워크샵 진행 방식
+
+### Figma를 사용하는 이유
+이번 워크샵은 **Figma 실시간 협업 캔버스**에서 진행됩니다:
+- ✅ 모든 학생이 같은 화면을 보며 동시 작업
+- ✅ 서로의 수정안을 실시간으로 관찰
+- ✅ 댓글로 즉각적인 피드백 교환
+- ✅ 교수자의 실시간 가이드와 모범 답안 공개
+
+### Figma 접속 및 기본 조작
+
+**접속 방법**:
+1. 교수자가 제공한 Figma 링크 클릭
+2. 브라우저에서 바로 사용 가능 (앱 설치 불필요)
+3. 본인 이름으로 커서 이름 변경
+
+**기본 단축키**:
+- `N` 키: Sticky Note 생성 (의견 작성용)
+- `C` 키: 댓글 달기 (피드백용)
+- 마우스 휠: 확대/축소
+- 스페이스바 + 드래그: 캔버스 이동
+
+**주의사항**:
+- 왼쪽 "원칙 참조 패널"은 읽기 전용 (수정하지 마세요)
+- 오른쪽 작업 영역에서만 Sticky Note로 작업
+- 실시간 자동 저장되니 별도 저장 불필요
+
+### Figma 캔버스 구조
+
+```
+┌─────────────────────────────────────────┐
+│  [왼쪽] 원칙 참조 패널 (읽기 전용)       │
+│  • Lesson 1: 주어-동사                  │
+│  • Lesson 2: 응집성                     │
+│  • Lesson 3: 간결성                     │
+│                                         │
+│  [오른쪽] 작업 영역                      │
+│  • Stage 1A: Bad Sentences #1-10        │
+│  • Stage 1B: Bad Paragraphs #1-4        │
+│  • Stage 2: Smart Revising zones        │
+│  각 영역마다:                            │
+│    - 원문                               │
+│    - 문제점 찾기 (Sticky Notes)         │
+│    - 수정안 (Sticky Notes)              │
+│    - 피드백 영역 (댓글)                  │
+│    - 모범 답안 (교수자 공개)             │
+└─────────────────────────────────────────┘
+```
+
+---
+
+## Workshop Stage 1A: Bad Sentences 수술실 (15분)
+
+### Figma에서 진행하는 방법
+
+**[00:00-00:07] 개인 수정 (7분)**
+1. Bad Sentence #1로 이동
+2. "문제점 찾기" 영역에 Sticky Note (N키) 생성
+3. 발견한 문제점 작성 (예: "nominalization", "주체 불명확")
+4. "수정안" 영역에 Sticky Note로 자신의 수정 버전 작성
+5. Bad Sentence #2-10도 동일하게 진행
+
+**[00:07-00:12] 페어 비교 (5분)**
+1. 다른 학생들의 Sticky Notes 확인
+2. 좋은 수정안에 댓글 (C키)로 피드백
+   - 예: "👍 동사 사용이 명확해요"
+   - 예: "주체를 더 구체적으로 하면 어떨까요?"
+3. 자신의 수정안에 댓글이 달리면 반영
+
+**[00:12-00:15] 모범 답안 공유 (3분)**
+1. 교수자가 주요 문장(#1, #5, #9)의 "모범 답안" 공개
+2. 자신의 수정안과 비교
+3. 패턴 인식: "대부분 nominalization 문제였죠?"
+
+---
+
+## Bad Sentences 목록 (Figma 작업 영역)
 
 ### 목표
 - 10개의 나쁜 문장을 분석하고 수정
@@ -309,6 +390,136 @@ differences in gene expression.
 
 ---
 
+## Workshop Stage 1B: Bad Paragraphs from Real Papers (15분)
+
+### 목표
+- 실제 2nd tier 저널 논문의 문단을 분석하고 개선
+- 문장이 아닌 문단 수준에서 Week 1 원칙 적용
+- 실전 논문 작성에 바로 적용 가능한 패턴 학습
+
+### Figma에서 진행하는 방법
+
+**[00:20-00:28] 개인 분석 및 개선 (8분)**
+1. Figma에서 "Bad Paragraphs from Real Papers" 섹션으로 이동
+2. Paragraph 1-4 중 2개 선택 (시간 제약)
+3. 각 문단에서:
+   - "문제점 찾기" 영역에 Sticky Note로 발견한 문제 기록
+   - "개선안" 영역에 전체 문단을 개선한 버전 작성
+   - Week 1 원칙 중 어떤 것을 적용했는지 명시
+
+**[00:28-00:33] 피어 리뷰 (5분)**
+1. 다른 학생들의 개선안 확인
+2. 댓글로 피드백:
+   - ✅ "Before/After 차이가 극적이네요!"
+   - 💡 "이 부분은 Old→New 흐름을 더 개선하면?"
+3. 특히 좋은 개선안에 👍 반응
+
+**[00:33-00:35] 모범 답안 및 패턴 정리 (2분)**
+1. 교수자가 각 문단의 모범 답안 공개
+2. 공통 패턴 인식:
+   - "4개 문단 모두 nominalization 문제가 있었죠?"
+   - "PLOS ONE도 이런 문제가 있습니다. 고칠 수 있어요!"
+
+---
+
+### 📄 실제 논문 문단 예시 (Figma 작업 영역)
+
+**중요**: 상세한 내용은 `bad_paragraphs_real_papers.md` 파일을 참조하세요.
+
+#### Paragraph 1: Background Section (PLOS ONE 2024)
+**출처**: Computerized neuropsychological assessment in post-COVID condition
+
+**원문**:
+"Attention/ processing speed deficits with or without executive function and episodic memory deficits have been suggested as a relatively characteristic cognitive profile of people with post-COVID condition (PCC)..."
+
+**주요 문제점**:
+- [ ] 수동태 과다: "have been suggested"
+- [ ] Nominalization: "deficits"
+- [ ] 복잡한 주어
+- [ ] 주체 불명확
+
+**개선 방향**: 능동태, 동작을 동사로, 주어 단순화
+
+---
+
+#### Paragraph 2: Methods Section (PLOS ONE 2024)
+**출처**: 동일 논문
+
+**원문**:
+"Five hundred and eight participants were enrolled in the study (PCC = 227, Healthy Controls, HC = 281) and underwent cognitive assessment..."
+
+**주요 문제점**:
+- [ ] 수동태: "were enrolled", "underwent"
+- [ ] 주어-동사 거리: 19 words!
+- [ ] 주체 불명확: 누가 enrolled했는가?
+
+**개선 방향**: We 사용, 주어-동사 가깝게, 문장 분리
+
+---
+
+#### Paragraph 3: Results Section (PLOS ONE 2024)
+**출처**: 동일 논문
+
+**원문**:
+"The proposed four-factor model showed adequate fit indices. There were differences in attention, concentration, and executive functions factor scores..."
+
+**주요 문제점**:
+- [ ] "There were" 구문 (약한 시작)
+- [ ] Old→New 흐름 끊김
+- [ ] 긴 문장 (27 words)
+- [ ] Nominalization: "implication"
+
+**개선 방향**: 구체적 주어, Old→New 흐름, 문장 분리
+
+---
+
+#### Paragraph 4: Introduction (2nd Tier 일반 패턴)
+**출처**: 일반적 패턴
+
+**원문**:
+"It is widely recognized and generally accepted in the scientific community that cognitive deficits constitute a major and significant health concern..."
+
+**주요 문제점**:
+- [ ] 불필요한 수식어 과다
+- [ ] "Obviously, clearly evident" (독자 무시)
+- [ ] Nominalization 과다
+- [ ] 장황함 (82 words → 33 words 가능)
+
+**개선 방향**: 불필요한 단어 제거, 직접적 표현, 60% 단축
+
+---
+
+### 📊 4개 문단 패턴 분석
+
+| 문제 유형 | 빈도 | 개선 효과 |
+|----------|------|----------|
+| Nominalization | 3/4 (75%) | 명확성 +50% |
+| 수동태 과다 | 2/4 (50%) | 주체 명확화 |
+| 주어-동사 거리 | 2/4 (50%) | 이해도 +60% |
+| Old→New 흐름 | 1/4 (25%) | 응집성 증가 |
+| 불필요한 수식어 | 1/4 (25%) | 단어 수 -60% |
+
+**평균 개선 효과**:
+- 단어 수: 49 words → 34 words (-31%)
+- 문장 길이: 24 words → 11 words (-54%)
+- 수동태: 45% → 5% (-89%)
+
+---
+
+### 💡 실전 적용 팁
+
+**과제 연결**:
+1. 여러분의 초록/서론을 이 4개 문단과 비교해보세요
+2. 같은 문제가 있나요?
+3. Week 1 원칙으로 개선해보세요
+
+**다음 주차 연결 (Week 2: AI 활용)**:
+- 이 4개 문단을 ChatGPT/Claude로 개선해보기
+- AI 결과 vs 여러분의 수정안 비교
+- 더 나은 프롬프트 찾기
+
+---
+
 ## Workshop Stage 2: Smart Revising 체크리스트 (20분)
 
 ### 목표
@@ -316,14 +527,60 @@ differences in gene expression.
 - 실제 논문 초록/문단을 체계적으로 개선
 - 동료 피드백을 통한 상호 학습
 
-### 준비물
-- 자신이 쓴 초록 또는 서론 문단 (1-2 문단)
-- 7단계 체크리스트 (아래)
-- 펜과 형광펜
+### Figma에서 진행하는 방법
 
-### 진행 방식
-1. **개인 작업** (10분): 1-4단계를 자기 글에 적용
-2. **페어 피드백** (10분): 짝과 5-6단계 진행
+**[00:20-00:30] 개인 체크리스트 작업 (10분)**
+1. Figma에서 자신의 작업 구역으로 이동
+2. "📄 내 초록" 영역에 Sticky Note로 초록 붙이기
+3. 7-Step Checklist를 순서대로 진행:
+   - ✅ Step 1 완료 → 체크박스 클릭
+   - 🔄 Step 2 작업 중 → 노란색 Sticky Note로 수정사항 메모
+   - ⏳ Step 3 대기 → 아직 체크 안 함
+4. 각 단계에서 발견한 문제를 Sticky Note로 기록
+5. 수정 계획을 댓글로 작성
+
+**[00:30-00:40] 페어 피드백 (10분)**
+1. 페어 배정 확인 (A↔B, C↔D, E↔F)
+2. 페어의 작업 구역으로 이동
+3. 페어의 초록을 읽고 댓글로 피드백:
+   - ✅ "이 부분 주어-동사가 명확해요"
+   - 💡 "Step 5의 수식어를 줄이면 어떨까요?"
+   - ⚠️ "Old→New 흐름이 끊긴 것 같아요"
+4. 본인 구역으로 돌아와 받은 피드백 확인
+5. 수정본을 새로운 Sticky Note로 작성
+
+**Figma 작업 구역 구조**:
+```
+┌────────────────────────────────────┐
+│ 학생 A 작업 구역                   │
+│ ───────────────────────────────   │
+│ 📄 내 초록:                        │
+│ [Sticky Note: 원문 붙임]           │
+│                                    │
+│ ✅ Step 1: Nominalization          │
+│ 💬 발견: "analysis" → "analyze"    │
+│                                    │
+│ ✅ Step 2: 주어 확인               │
+│ 💬 수정: 주체를 주어로 이동        │
+│                                    │
+│ 🔄 Step 3: 주어-동사 거리 (진행중) │
+│ 💬 작업중: 13 words → 5 words로    │
+│                                    │
+│ ⏳ Step 4-7: 대기                  │
+│                                    │
+│ 💬 Peer Feedback (from 학생B):     │
+│ "Step 2 수정 좋아요!"              │
+│ "Step 3에서 'the study'를 앞으로?" │
+│                                    │
+│ 📝 수정본:                         │
+│ [Sticky Note: 최종 수정 버전]      │
+└────────────────────────────────────┘
+```
+
+### 준비물
+- 자신이 쓴 초록 또는 서론 문단 (1-2 문단, 디지털 파일)
+- Figma 접속 환경
+- 7단계 체크리스트 (Figma 왼쪽 패널 참조)
 
 ---
 
