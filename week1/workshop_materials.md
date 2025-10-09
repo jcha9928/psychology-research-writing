@@ -426,66 +426,79 @@ differences in gene expression.
 
 **중요**: 상세한 내용은 `bad_paragraphs_real_papers.md` 파일을 참조하세요.
 
-#### Paragraph 1: Background Section (PLOS ONE 2024)
-**출처**: Computerized neuropsychological assessment in post-COVID condition
+**논문 출처**:
+- Title: "Engaging in prosocial behavior explains how high self-control relates to more life satisfaction: Evidence from three Chinese samples"
+- Journal: PLOS ONE (2019)
+- Authors: Dou K, Li JB, Wang YJ, Li JJ, Liang ZQ, Nie YG (모두 중국 소속)
+- 주제: Social psychology - Self-control, prosocial behavior, life satisfaction
 
-**원문**:
-"Attention/ processing speed deficits with or without executive function and episodic memory deficits have been suggested as a relatively characteristic cognitive profile of people with post-COVID condition (PCC)..."
+---
+
+#### Paragraph 1: Abstract - 수동태 + Nominalization (PLOS ONE 2019)
+**출처**: Abstract
+
+**원문** (44 words):
+"High levels of self-control are found to be associated with greater life satisfaction. To further understand this relationship, the current study examined two questions: whether too much self-control reduces life satisfaction, and whether engaging in prosocial behavior explains the link."
 
 **주요 문제점**:
-- [ ] 수동태 과다: "have been suggested"
-- [ ] Nominalization: "deficits"
-- [ ] 복잡한 주어
-- [ ] 주체 불명확
+- [ ] 수동태: "are found to be associated"
+- [ ] Nominalization: "relationship", "satisfaction", "behavior"
+- [ ] 복잡한 구조: "To further understand this relationship"
+- [ ] 주체가 불명확
 
 **개선 방향**: 능동태, 동작을 동사로, 주어 단순화
+**개선 효과**: 44 words → 38 words (-14%)
 
 ---
 
-#### Paragraph 2: Methods Section (PLOS ONE 2024)
-**출처**: 동일 논문
+#### Paragraph 2: Introduction - 주어-동사 거리 + 복잡한 주어 (PLOS ONE 2019)
+**출처**: Introduction paragraph 1
 
-**원문**:
-"Five hundred and eight participants were enrolled in the study (PCC = 227, Healthy Controls, HC = 281) and underwent cognitive assessment..."
+**원문** (52 words):
+"While low self-control has long been viewed as a major cause of various emotional and behavioral problems, researchers recently have realized that there is insufficient understanding on whether and how self-control affects individual's well-being."
 
 **주요 문제점**:
-- [ ] 수동태: "were enrolled", "underwent"
-- [ ] 주어-동사 거리: 19 words!
-- [ ] 주체 불명확: 누가 enrolled했는가?
+- [ ] 복잡한 주어: "While low self-control has long been viewed..." (18 words 전에 main clause 시작)
+- [ ] 수동태: "has long been viewed", "have realized"
+- [ ] 주어-동사 거리: "researchers" ... (4 words) ... "have realized"
+- [ ] 문법 오류: "individual's" (복수여야 함)
 
-**개선 방향**: We 사용, 주어-동사 가깝게, 문장 분리
+**개선 방향**: 주어-동사 거리 단축, 문장 분리, 능동태
+**개선 효과**: 52 words → 29 words (-44%)
 
 ---
 
-#### Paragraph 3: Results Section (PLOS ONE 2024)
-**출처**: 동일 논문
+#### Paragraph 3: Introduction - Old→New 흐름 문제 (PLOS ONE 2019)
+**출처**: Introduction paragraph 2
 
-**원문**:
-"The proposed four-factor model showed adequate fit indices. There were differences in attention, concentration, and executive functions factor scores..."
+**원문** (58 words):
+"Prior research assumes that the relationship between self-control and life satisfaction is linear. Some scholars contend that too much self-control may result in less life satisfaction. This suggests an inverted-U relationship. Life satisfaction increases as self-control increases, but reduces when self-control exceeds a certain level."
 
 **주요 문제점**:
-- [ ] "There were" 구문 (약한 시작)
-- [ ] Old→New 흐름 끊김
-- [ ] 긴 문장 (27 words)
-- [ ] Nominalization: "implication"
+- [ ] Old→New 흐름 끊김: Sentence 2가 sentence 1의 정보를 반복하지 않음
+- [ ] "Some scholars" 갑자기 등장
+- [ ] 문단 응집성 부족: 4개 문장이 각각 독립적
+- [ ] 반복: "self-control" 6번, "life satisfaction" 4번
 
-**개선 방향**: 구체적 주어, Old→New 흐름, 문장 분리
+**개선 방향**: Old→New 연결 강화, 문장 흐름 개선, 간결성
+**개선 효과**: 58 words → 43 words (-26%)
 
 ---
 
-#### Paragraph 4: Introduction (2nd Tier 일반 패턴)
-**출처**: 일반적 패턴
+#### Paragraph 4: Introduction - 간결성 + 불필요한 단어 (PLOS ONE 2019)
+**출처**: Introduction paragraph 4
 
-**원문**:
-"It is widely recognized and generally accepted in the scientific community that cognitive deficits constitute a major and significant health concern..."
+**원문** (65 words):
+"Theorists have asserted that people who are socially responsible and prosocial live a eudemonic life, implying that satisfaction with life may be a function of engagement in prosocial behavior. Three reasons may lend support to this view. First, prosocial behavior leads to better relationship and social competence, which are seen as important foundation for people to judge their lives as good and satisfied."
 
 **주요 문제점**:
-- [ ] 불필요한 수식어 과다
-- [ ] "Obviously, clearly evident" (독자 무시)
-- [ ] Nominalization 과다
-- [ ] 장황함 (82 words → 33 words 가능)
+- [ ] 불필요한 단어 과다: "have asserted", "may be a function of", "may lend support to", "are seen as"
+- [ ] 복잡한 언어: "eudemonic", "a function of engagement in"
+- [ ] 장황한 표현: "people who are socially responsible and prosocial"
+- [ ] 수동태: "are seen as"
 
-**개선 방향**: 불필요한 단어 제거, 직접적 표현, 60% 단축
+**개선 방향**: 불필요한 단어 제거, 간단한 언어, 직접적 표현
+**개선 효과**: 65 words → 36 words (-45%)
 
 ---
 
