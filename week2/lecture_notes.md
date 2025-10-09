@@ -25,152 +25,28 @@
 
 ---
 
-## 📚 Part 1: Before Class (사전 학습, 60-90분)
+## 📚 수업 전 준비 (과제)
 
-학생들이 **수업 전에** 완료해야 하는 구조화된 학습 활동
-
-### 1. Watch: 영상 시청 (15-20분)
-
-#### 영상 1: "Nature/Science 초록의 차별화 요소" (10분)
-**핵심 내용:**
-- 탑티어 vs 일반 저널 초록 side-by-side 비교
-- 5가지 차별화 요소:
-
-| 요소 | 일반 저널 | Nature/Science |
-|------|-----------|----------------|
-| **Significance** | 좁은 전공 분야 | 넓은 과학적/사회적 임팩트 |
-| **Claims** | 조심스러운 incremental | 대담하지만 증거 있는 |
-| **Language** | 전문용어 중심 | 넓은 독자층 이해 가능 |
-| **"Why this matters"** | 암시적 | 명시적 강조 |
-| **Results** | "significant difference" | "340% improvement" |
-
-#### 영상 2: "4가지 Opening 패턴 실전 가이드" (8분)
-**4가지 패턴과 실제 예시:**
-
-1. **Problem-driven**
-   - 형식: "Despite decades of research, [핵심 문제] remains unsolved..."
-   - 예시: "Despite extensive research on memory, how the brain consolidates conflicting information remains unknown."
-
-2. **Gap-driven**
-   - 형식: "While [확립된 지식] is established, we lack understanding of [공백]..."
-   - 예시: "While attention enhances perception, how it modulates neural oscillations across sensory modalities is unclear."
-
-3. **Opportunity-driven**
-   - 형식: "Recent advances in [기술] enable unprecedented investigation..."
-   - 예시: "Recent advances in optogenetics enable precise investigation of circuit-level mechanisms underlying fear extinction."
-
-4. **Challenge-driven**
-   - 형식: "[현상] poses a fundamental challenge to our understanding..."
-   - 예시: "Spontaneous brain activity during rest poses a fundamental challenge to stimulus-response models of cognition."
-
-**시청 후 메모할 질문:**
-- 4가지 패턴 중 내 연구에 가장 적합한 것은?
-- 탑티어 초록의 가장 큰 차이점은?
+**필수 과제**: 자신의 연구 초록 baseline draft (150-200 words) 작성
+- Week 1 과제 (7-step checklist)를 마친 버전이면 best!
+- 완벽하지 않아도 됨 - 수업에서 AI로 개선할 예정
+- 없으면 서론 첫 문단도 가능
 
 ---
 
-### 2. Read: 논문 초록 비교 분석 (20-30분)
+## 🎓 90분 Workshop 구조
 
-#### Reading 1: Nature/Science 초록 5편 (Color-Coded)
+**강의 15-20분** + **Workshop/Discussion 70-75분**
 
-**제공 형태:**
-```
-각 초록에 색깔 표시:
-🟡 Yellow: Opening sentence (어떤 패턴?)
-🟢 Green: Broad significance framing
-🔵 Blue: 정량적 결과 (%, fold-change)
-🔴 Red: Novelty 강조 표현
-```
-
-**Reading Guide Questions:**
-1. 각 초록의 opening은 어떤 패턴을 사용하는가?
-2. Significance를 어떻게 broader context로 확장하는가?
-3. 결과를 어떤 방식으로 정량화하는가?
-4. Novelty는 어디에, 어떻게 위치하는가?
-5. 가장 임팩트 있는 초록은? 왜?
-
-#### Reading 2: 일반 저널 초록 5편 (비교용)
-
-**과제:**
-- Nature/Science 초록과 차이점 리스트 작성
-- 어떤 요소가 없거나 약한지 파악
+학생들은 자신의 초록을 가지고 와서:
+- AI로 Nature/Science급으로 개선
+- 4가지 Opening 패턴 실험
+- 동료 피드백
+- Recipe 공유
 
 ---
 
-### 3. Reflect: 구조화된 성찰 (Google Form, 10-15분)
-
-**제출 질문 4개:**
-
-**Q1: Opening Pattern 식별**
-"읽은 Nature/Science 초록 5편의 Opening pattern을 각각 식별하세요."
-- Abstract 1: [Problem/Gap/Opportunity/Challenge]
-- Abstract 2: [...]
-- (계속)
-
-**Q2: 차별화 요소 발견**
-"Nature/Science 초록과 일반 저널 초록의 가장 큰 차이 3가지를 구체적으로 적으세요."
-- 차이점 1: _______
-- 차이점 2: _______
-- 차이점 3: _______
-
-**Q3: 내 연구 Opening 초안**
-"당신의 연구를 4가지 패턴 중 하나로 Opening sentence 작성 (1-2문장)"
-- 선택한 패턴: _______
-- Opening 문장: _______
-
-**Q4: 가장 어려운 점**
-"초록 작성에서 가장 어려울 것 같은 부분은?"
-
-**목적:**
-- 교수가 학생들의 이해도와 어려움 사전 파악
-- 수업 시간에 common confusions 해결
-- 학생들의 준비도 체크
-
----
-
-### 4. Try: AI로 Opening 생성 실험 (15-20분)
-
-**과제: "AI로 Opening 4가지 버전 만들기"**
-
-**Step 1:** Week 1 Baseline Draft의 Opening 준비
-
-**Step 2:** ChatGPT/Claude에게 다음 프롬프트 입력
-
-```
-나는 심리학 논문의 초록을 작성 중이야.
-
-현재 Opening sentence: [당신의 baseline opening]
-
-이 opening을 다음 4가지 패턴으로 각각 재작성해줘:
-1. Problem-driven: "Despite decades of research, [핵심 문제] remains unsolved..."
-2. Gap-driven: "While [확립된 지식] is established, we lack understanding of [공백]..."
-3. Opportunity-driven: "Recent advances in [기술/방법] enable unprecedented investigation..."
-4. Challenge-driven: "[현상] poses a fundamental challenge to our understanding..."
-
-각 버전은 1-2문장으로 간결하게 작성하고, Nature/Science 수준의 임팩트를 목표로 해줘.
-```
-
-**Step 3:** 4가지 버전 저장 (수업에서 사용)
-
-**Step 4:** 각 버전의 장단점 간단히 메모
-
----
-
-### 5. Share: Writing Circle 비동기 공유 (선택, 5-10분)
-
-**Slack/Google Docs에 공유:**
-- 자신이 생성한 4가지 Opening 버전 중 **가장 좋은 1개** 공유
-- 왜 선택했는지 1-2문장 설명
-- 다른 멤버들의 것 읽고 간단히 반응 (👍, 💡, 🤔)
-
-**목적:**
-- 수업 전 서로의 작업 미리 보기
-- 다양한 접근 방식 경험
-- Writing Circle 활성화
-
----
-
-## 🎓 Part 2: In Class (90분 인터랙티브 워크샵)
+## 📊 90분 In-Class Workshop 진행
 
 ### 시간 배분 개요
 ```

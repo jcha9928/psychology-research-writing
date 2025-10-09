@@ -620,7 +620,7 @@ A↔B, C↔D, E↔F
 자신의 글에 완전히 적용해보세요."
 ```
 
-**다음 주 예고 & 준비물**:
+**다음 주 예고 & 과제**:
 ```
 "다음 주부터는 AI를 사용합니다!
 
@@ -629,18 +629,20 @@ Week 2: Nature/Science급 초록 쓰기
 - Top-tier abstract differentiation
 - 40+ AI recipes
 
-⚠️ 중요: Week 2 준비물
-다음 주는 flipped classroom 방식입니다.
-수업 전 사전학습이 필수입니다!
+⚠️ 중요: Week 2 과제 (필수)
+다음 주 수업에 가져올 준비물입니다!
 
-필수 준비:
-1. 자신의 연구 초록 baseline draft (150-200 words)
-   - 없으면 서론 첫 문단도 가능
-   - 완벽하지 않아도 됩니다 (AI로 개선할 예정)
+필수:
+자신의 연구 초록 baseline draft (150-200 words)
+- 없으면 서론 첫 문단도 가능
+- 완벽하지 않아도 됩니다 (AI로 개선할 예정)
+- Week 1 과제(7-step checklist)를 마친 버전이면 best!
 
-2. 사전학습 영상 시청 + 읽기 자료 (수업 3일 전 공지)
-   - 시간: 약 60-90분
-   - Google Form 제출 필수
+수업 시간에 이 초록을 가지고:
+- AI로 Nature/Science급으로 개선
+- 4가지 Opening 패턴 실험
+- 동료 피드백
+- Recipe 공유
 
 오늘 배운 기초 위에 AI의 힘을 더하는 겁니다.
 다음 주에 만나요!"

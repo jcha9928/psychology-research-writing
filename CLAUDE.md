@@ -162,23 +162,56 @@ Focus areas:
 
 ## 🎓 Teaching Philosophy
 
+### Core Principle: Learn by Writing
+
+**"Write Every Week, Improve in Class, Apply Immediately"**
+
+학생들은 자신의 실제 논문을 매주 조금씩 작성하며 배웁니다:
+- **Week 1**: 초록 작성 + Week 1 원칙 적용
+- **Week 2**: 초록을 Nature/Science급으로 개선 (AI 활용)
+- **Week 3**: Literature review 작성 + Gap discovery
+- **Week 4**: Methods/Results 작성 + Bulletproofing
+- **Week 5-6**: Discussion, Peer review, Final polish
+
+### NO Flipped Classroom
+
+이 과정은 flipped classroom을 **사용하지 않습니다**:
+- ❌ Pre-class videos, readings, Google Forms
+- ❌ 사전학습 60-90분 요구
+- ✅ 수업 전 준비: 자신의 논문 섹션 작성 (매주 과제)
+- ✅ 수업 시간: 가져온 글을 workshop에서 개선
+
+**Why?**
+- 대학원생들은 이미 바쁨 - 사전학습 부담 최소화
+- 실제 논문으로 배우는 게 가장 효과적
+- Workshop에서 즉각적 피드백과 개선이 핵심
+
 ### 90-Minute Class Structure
 
-**Week 1 Structure** (Workshop Model):
-1. **IMRaD 오리엔테이션** (5분): Course roadmap
-2. **핵심 원칙 강의** (30분): 10 principles with key examples
-3. **Workshop Stage 1** (20분): Bad Sentences practice
-4. **Workshop Stage 2** (20분): Smart Revising on own writing
-5. **통합 정리 & Q&A** (15분): Wrap-up and assignment
+**Week 1** (기초 원칙 교육):
+- **강의 35분**: 10 core writing principles
+  - IMRaD 오리엔테이션 (5분)
+  - 핵심 원칙 강의 (30분)
+- **Workshop 50분**: Figma collaborative practice
+  - Bad Sentences (15분)
+  - Bad Paragraphs (15분)
+  - Smart Revising (20분)
+- **Wrap-up 5분**: Q&A + 과제 안내
+- **과제**: 초록을 7-step checklist로 수정
 
-**Week 2-6 Structure** (AI-Enhanced):
-1. **개념 리뷰** (10분): Brief recap (students already know AI concepts)
-2. **전략 강의** (20분): Top-tier publication strategies
-3. **프롬프트 레시피 공유** (20분): Share successful AI prompts
-4. **실습** (30분): Apply strategies to own research
-5. **피어 리뷰** (10분): Structured feedback sessions
+**Week 2-6** (AI-Enhanced Workshop):
+- **짧은 강의 15-20분**: Top-tier strategies + AI recipes
+  - 주요 전략 소개 (10-15분)
+  - 프롬프트 레시피 시연 (5분)
+- **Workshop/Discussion 70-75분**:
+  - AI로 자신의 글 개선 (30-40분)
+  - Peer feedback & discussion (20-30분)
+  - Recipe sharing & 모범 사례 (10-20분)
+- **과제**: 다음 섹션 작성
 
-**Key Principle**: Practice > Theory (minimum 40% hands-on time)
+**Key Ratio**:
+- Week 1: 40% lecture / 60% workshop
+- Week 2-6: 20% lecture / 80% workshop/discussion
 
 ### Recipe Sharing Culture
 - Students share their successful AI prompts
